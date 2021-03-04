@@ -29,7 +29,7 @@ function App() {
             <pre>
               {JSON.stringify(values, null, 2)}
             </pre>
-            <button className="btn btn-primary mb-3">Submit</button>
+            <button type="submit" className="btn btn-primary mb-3">Submit</button>
           </Form>
         )}
       </Formik>
